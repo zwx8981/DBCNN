@@ -1,5 +1,6 @@
 # BIQA_project
 
+
 1, Files under distorion_generator are used for synthetizing distorted images.
 
 Usuage:
@@ -34,3 +35,7 @@ The training code will be released in the future, however, you can also do it yo
 2, Get BCNN-package and example training code from https://bitbucket.org/tsungyu/bcnn-package and https://bitbucket.org/tsungyu/bcnn.git respectively. \
 3, Example B-CNN codes are used for training models for image classification, so you need to modify the file initializeNetworkTwoStreams.m by adding l2-loss layer, which is used for regression task. Actuall, you can direclty implement L2-LOSS using vl_nnpdist function which is included in MatConvNet by setting 'aggregate' option to True.\
 4, Modify model_setup.m and run_experiments_bcnn_train.m such that they meet your requirements.
+
+Relevant links:
+Waterloo Exploration Database: https://ece.uwaterloo.ca/~k29ma/exploration/ \
+PASCAL VOC 2012: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
