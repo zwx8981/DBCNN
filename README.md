@@ -8,15 +8,15 @@ Usuage:\
 
 Where img is the original pristine image, dist_type refer to a specified distortion type ranging in 1~9.\
 
-1, Gaussian Blur\
-2, White Noise\  
-3, JPEG Compression\
-4, JPEG2000 Compression\
-5, Contrast Change\ 
-6, Pink Noise\
-7, Image Color Quantization with Dither\ 
-8, Overexposure\
-9, Underexposure\
+1, Gaussian Blur\<br /\>  
+2, White Noise\<br /\>    
+3, JPEG Compression\<br /\>  
+4, JPEG2000 Compression\<br /\>  
+5, Contrast Change\<br /\>   
+6, Pink Noise\<br /\>  
+7, Image Color Quantization with Dither\<br /\>  
+8, Overexposure\<br /\>  
+9, Underexposure\<br /\>  
 
 level is a specified degradation level range in 1~5.\ 
 
