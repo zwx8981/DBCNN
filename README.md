@@ -16,17 +16,17 @@ Where img is the original pristine image, dist_type refer to a specified distort
 6, Pink Noise \
 7, Image Color Quantization with Dither \
 8, Overexposure \
-9, Underexposure \
+9, Underexposure 
 
 level is a specified degradation level range in 1~5.
 
 seed is fixed to be 1.
 
-Distorted_img is the output distored image, map is only used for saving distorted images of the type Image Color Quantization with Dither. \
+Distorted_img is the output distored image, map is only used for saving distorted images of the type Image Color Quantization with Dither. 
 
-2, Files under train_test_split are imdb files that record the specified training and testing splits used in the paper on four IQA benchmark databases, LIVE IQA, CSIQ, TID2013 and LIVE Challenge. \
+2, Files under train_test_split are imdb files that record the specified training and testing splits used in the paper on four IQA benchmark databases, LIVE IQA, CSIQ, TID2013 and LIVE Challenge. 
 
-3. Files under pre-trained mdoel is the shallow CNN pre-trained on the sythetically distorted images set. I has already been tailored as described in the paper. \
+3. Files under pre-trained mdoel is the shallow CNN pre-trained on the sythetically distorted images set. I has already been tailored as described in the paper. 
 
 The training code will be released in the future, however, you can also do it yourself following this instruction:
 
