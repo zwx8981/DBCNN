@@ -26,7 +26,7 @@ Distorted_img is the output distored image, map is only used for saving distorte
 
 2, Files under train_test_split are imdb files that record the specified training and testing splits used in the paper on four IQA benchmark databases, LIVE IQA, CSIQ, TID2013 and LIVE Challenge.
 
-3. Files under pre-trained mdoel is the shallow CNN pre-trained on the sythetically distorted images set. I has already been tailored as described in the paper. 
+3. Files under pre-trained mdoel is the shallow CNN pre-trained on the sythetically distorted images set. It has already been tailored as described in the paper. 
 
 The training code will be released in the future, however, you can also do it yourself following this instruction:
 
