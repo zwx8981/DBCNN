@@ -1,14 +1,14 @@
 # BIQA_project
 
-1, Files under distorion_generator are used for synthetizing distorted images.\<br>  
+1, Files under distorion_generator are used for synthetizing distorted images.\
 
-Usuage:\<br>  
+Usuage:\
 
 [ distorted_img, map ] = distortion_generator( img, dist_type, level, seed )\<br>  
 
 Where img is the original pristine image, dist_type refer to a specified distortion type ranging in 1~9.\<br>  
 
-1, Gaussian Blur\<br>  
+1, Gaussian Blur\
 2, White Noise\<br>  
 3, JPEG Compression\<br>  
 4, JPEG2000 Compression\<br>  
