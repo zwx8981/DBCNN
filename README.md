@@ -8,15 +8,15 @@ Usuage:
 
 Where img is the original pristine image, dist_type refer to a specified distortion type ranging in 1~9.
 
-1, Gaussian Blur 
-2, White Noise  
-3, JPEG Compression
-4, JPEG2000 Compression
-5, Contrast Change
-6, Pink Noise
-7, Image Color Quantization with Dither
-8, Overexposure
-9, Underexposure
+1, Gaussian Blur \
+2, White Noise  \
+3, JPEG Compression \
+4, JPEG2000 Compression \
+5, Contrast Change \
+6, Pink Noise \
+7, Image Color Quantization with Dither \
+8, Overexposure \
+9, Underexposure \
 
 level is a specified degradation level range in 1~5.
 
@@ -28,7 +28,7 @@ Distorted_img is the output distored image, map is only used for saving distorte
 
 3. Files under pre-trained mdoel is the shallow CNN pre-trained on the sythetically distorted images set. I has already been tailored as described in the paper. \
 
-The training code will be released in the future, however, you can also do it yourself following this instruction:\
+The training code will be released in the future, however, you can also do it yourself following this instruction:
 
 1, Prerequisite: Matlab(We use 2017a), MatConvNet (We use 1.0-beta25).\
 2, Get BCNN-package and example training code from https://bitbucket.org/tsungyu/bcnn-package and https://bitbucket.org/tsungyu/bcnn.git respectively. \
