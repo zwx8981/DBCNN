@@ -27,6 +27,9 @@ Distorted_img is the output distored image, map is only used for saving distorte
 
 
 Training codes live in dbcnn folder.
+
+Running the run_exp.m script to train and test on a specifid dataset across 10 random splits.
+
 Prerequisite: Matlab(We use 2017a), MatConvNet (We use 1.0-beta25)， vlfeat(We use 0.9.2)
 
 
