@@ -7,7 +7,7 @@ Usuage:
 
 [ distorted_img, map ] = distortion_generator( img, dist_type, level, seed )
 
-Where img is the original pristine image, dist_type refer to a specified distortion type ranging in 1~9.
+Where img is the original pristine image, dist_type refers to a specified distortion type ranging in 1~9.
 
 1, Gaussian Blur \
 2, White Noise  \
@@ -21,12 +21,14 @@ Where img is the original pristine image, dist_type refer to a specified distort
 
 level is a specified degradation level range in 1~5.
 
-seed is fixed to be 1.
+seed should be fixed to be 1.
 
 Distorted_img is the output distored image, map is only used for saving distorted images of the type Image Color Quantization with Dither. 
 
 
+Training codes live in dbcnn folder.
 Prerequisite: Matlab(We use 2017a), MatConvNet (We use 1.0-beta25)， vlfeat(We use 0.9.2)
+
 
 
 Relevant links: \
