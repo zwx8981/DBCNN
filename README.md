@@ -32,6 +32,7 @@ Running the run_exp.m script to train and test on a specifid dataset across 10 r
 
 Prerequisite: Matlab(We use 2017a), MatConvNet (We use 1.0-beta25)， vlfeat(We use 0.9.2)
 
+Pretrained s-cnn model is included in dbcnn\data\models, you should download vgg-16 model from http://www.vlfeat.org/matconvnet/pretrained/ and put it in dbcnn\data\models.
 
 
 Relevant links: \
