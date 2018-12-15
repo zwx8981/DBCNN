@@ -23,8 +23,8 @@ Where img is the original pristine image, dist_type refers to a specified distor
 5, Contrast Change \
 6, Pink Noise \
 7, Image Color Quantization with Dither \
-8, Overexposure \
-9, Underexposure 
+8, Over-Exposure \
+9, Under-Exposure 
 
 level is a specified degradation level range in 1~5.
 
