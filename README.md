@@ -4,7 +4,7 @@ Deep Bilinear Pooling for Blind Image Quality Assessment
 Weixia Zhang, Kede Ma, Jia Yan, Dexiang Deng, and Zhou Wang
 -
 IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), to appear, 2019.
-
+-
 
 
 Files under distorion_generator are used for synthetizing distorted images.
