@@ -12,7 +12,7 @@ dbcnn.opts = {...
 opts.setupNameList = {'dbcnn'};
 opts.encoderList = {{dbcnn}}; 
 opts.datasetList = {{'live', 1}};  
-opts.learningRate = 1e-6;
+%opts.learningRate = 1e-6;
 opts.momentum = 0.9;
 opts.batchSize = 8;
 opts.numEpoch = 30;
@@ -27,23 +27,27 @@ case 'live'
   subdirec = 'data\checkgpu\live-seed-01';
   modelpath = 'models\LIVE_models';
   datapath = 'data\checkgpu\live-seed-01';
+  opts.learningRate = 1e-6;
 case 'csiq'
   subdirec = 'data\checkgpu\csiq-seed-01';
   modelpath = 'models\CSIQ_models';
   datapath = 'data\checkgpu\csiq-seed-01';
+  opts.learningRate = 1e-6;
 case 'tid'
   subdirec = 'data\checkgpu\tid-seed-01';
   modelpath = 'models\TID_models';
   datapath = 'data\checkgpu\tid-seed-01';
+  opts.learningRate = 1e-5;
 case 'mlive'
   subdirec = 'data\checkgpu\mlive-seed-01';
   modelpath = 'models\MLIVE_models';
   datapath = 'data\checkgpu\mlive-seed-01';
+  opts.learningRate = 1e-5;
 case 'clive'
   subdirec = 'data\checkgpu\clive-seed-01';
   modelpath = 'models\Challen_models';
   datapath = 'data\checkgpu\clive-seed-01';
-  
+  opts.learningRate = 1e-5;
 end
 
 
