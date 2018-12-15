@@ -8,6 +8,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), to appea
 
 
 Files under distorion_generator are used for synthetizing distorted images.
+-
 
 Usuage:
 
@@ -33,6 +34,7 @@ Distorted_img is the output distored image, map is only used for saving distorte
 
 
 Training codes live in dbcnn folder.
+-
 
 Running the run_exp.m script to train and test on a specifid dataset across 10 random splits.
 
