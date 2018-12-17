@@ -30,8 +30,6 @@ level is a specified degradation level range in 1~5.
 
 seed should be fixed to be 1.
 
-Distorted_img is the output distored image, map is only used for saving distorted images of the type Image Color Quantization with Dither. 
-
 
 Training codes live in dbcnn folder.
 -
