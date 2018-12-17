@@ -1,4 +1,4 @@
-function [ distorted_img, map ] = distortion_generator( img, dist_type, level, seed )
+function distorted_img = distortion_generator( img, dist_type, level, seed )
     %% set distortion parameter
     gblur_level = [7,15,39,91,199];
     wn_level = [-10,-7.5,-5.5,-3.5,0];
@@ -65,7 +65,8 @@ function [ distorted_img, map ] = distortion_generator( img, dist_type, level, s
             distorted_img = uint8(distorted_img);
          case 7 %dither
              dither = dither_level(level);
-             [distorted_img,map] = rgb2ind(img,dither);
+             [idx,map] = rgb2ind(img,dither);
+             distorted_img = uint8(ind2rgb(idx,map) * 255);
          case 8 %overexposure
             g = bright_level(level);
 %             distorted_img = imadjust(img,[],[],[g g g]);
