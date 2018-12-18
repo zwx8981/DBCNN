@@ -7,7 +7,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), to appea
 
 
 
-Files under distorion_generator are used for synthetizing distorted images.
+Files under distorion_generator are used for synthesizing distorted images.
 -
 
 Usuage:
