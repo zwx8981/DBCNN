@@ -12,7 +12,7 @@ Files under distorion_generator are used for synthetizing distorted images.
 
 Usuage:
 
-[ distorted_img, map ] = distortion_generator( img, dist_type, level, seed )
+distorted_img = distortion_generator( img, dist_type, level, seed )
 
 Where img is the original pristine image, dist_type refers to a specified distortion type ranging in 1~9.
 
