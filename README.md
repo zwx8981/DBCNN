@@ -5,6 +5,8 @@ Weixia Zhang, Kede Ma, Jia Yan, Dexiang Deng, and Zhou Wang
 
 IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), to appear, 2019.
 
+https://ece.uwaterloo.ca/~k29ma/papers/19_TCSVT_DB-CNN.pdf
+
 
 
 Files under distorion_generator are used for synthesizing distorted images.
