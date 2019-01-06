@@ -30,7 +30,9 @@ for k = 1:epoch
     for i = 1:size(sel)
         imagePaths = {fullfile(options.dataset_path,path{i})};
         im = imread(imagePaths{1,1});
-        im = imresize(im,0.75);
+        if options.dataset == 'mlive'
+            im = imresize(im,0.75);
+        end
         im = gpuArray(single(im));
         data = bsxfun(@minus,im,averageImage);
         inputs = {'input', data, 'netb_input', data} ;
