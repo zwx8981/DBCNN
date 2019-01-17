@@ -83,6 +83,7 @@ if exist(imageStatsPath)
   load(imageStatsPath, 'averageImage', 'rgbMean', 'rgbCovariance') ;
 else
   [averageImage, rgbMean, rgbCovariance] = getImageStats(imdb, bopts) ;
+  rgbMean = net.meta.meta1.normalization.averageImage;
   save(imageStatsPath, 'averageImage', 'rgbMean', 'rgbCovariance') ;
 end
 
