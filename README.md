@@ -1,4 +1,5 @@
-# An experimental PyTorch implementation of DB-CNN is released at https://github.com/zwx8981/DBCNN-PyTorch! Only support experiment on LIVE IQA right now, other datasets will be added soon!
+An experimental PyTorch implementation of DB-CNN is released at https://github.com/zwx8981/DBCNN-PyTorch! Only support experiment on LIVE IQA right now, other datasets will be added soon!
+=
 
 Deep Bilinear Pooling for Blind Image Quality Assessment 
 =
