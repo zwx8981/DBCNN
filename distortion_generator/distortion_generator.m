@@ -4,13 +4,11 @@ function distorted_img = distortion_generator( img, dist_type, level, seed )
     wn_level = [-10,-7.5,-5.5,-3.5,0];
     jpeg_level = [43,12,7,4,0];
     jp2k_level = [0.46,0.16,0.07,0.04,0.02]; % bit per pixel
-    motion_level = [1,2,3,4,5];
     pink_level = [0.3,0.7,1.2,2,4];
     dither_level = [64,32,16,8,4];
     dark_level = [1.5,3,4.5,6,7.5];
     bright_level = [1.5,3,4.5,6,7.5];
     
-    map = 1;
     %% distortion generation
     switch dist_type
         case 1
