@@ -4,6 +4,7 @@ An experimental PyTorch implementation of DB-CNN is released at https://github.c
 Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Network (Official IEEE preprint version)
 =
 Weixia Zhang, Kede Ma, Jia Yan, Dexiang Deng, and Zhou Wang
+https://ieeexplore.ieee.org/document/8576582
 
 IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), to appear, 2019.
 
