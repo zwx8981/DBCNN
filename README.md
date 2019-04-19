@@ -1,12 +1,15 @@
 An experimental PyTorch implementation of DB-CNN is released at https://github.com/zwx8981/DBCNN-PyTorch! Only support experiment on LIVE IQA right now, other datasets will be added soon!
 
 
-Deep Bilinear Pooling for Blind Image Quality Assessment 
+Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Network (Official IEEE preprint version)
 =
+IEEE Transactions on Circuits and Systems for Video Technology
 Weixia Zhang, Kede Ma, Jia Yan, Dexiang Deng, and Zhou Wang
 
 IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), to appear, 2019.
 
+Deep Bilinear Pooling for Blind Image Quality Assessment (Unofficial free version)
+=
 https://ece.uwaterloo.ca/~k29ma/papers/19_TCSVT_DB-CNN.pdf
 
 
