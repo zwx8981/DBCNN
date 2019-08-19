@@ -47,6 +47,8 @@ Prerequisite: Matlab(We use 2017a), MatConvNet (We use 1.0-beta25)， vlfeat(We 
 
 Pretrained s-cnn model is included in dbcnn\data\models, you should download vgg-16 model from http://www.vlfeat.org/matconvnet/pretrained/ and put it in dbcnn\data\models.
 
+You need to copy the matconvet/matlab folder to that of your matconvnet to modify the vl_simplenn.m and PDist.m files. 
+-
 
 Relevant links: \
 Waterloo Exploration Database: https://ece.uwaterloo.ca/~k29ma/exploration/ \
