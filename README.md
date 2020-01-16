@@ -6,7 +6,7 @@ Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Networ
 Weixia Zhang, Kede Ma, Jia Yan, Dexiang Deng, and Zhou Wang
 https://ieeexplore.ieee.org/document/8576582
 
-IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), to appear, 2019.
+IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), Volume: 30 , Issue: 1 , Jan. 2020.
 
 Deep Bilinear Pooling for Blind Image Quality Assessment (Unofficial free version)
 =
