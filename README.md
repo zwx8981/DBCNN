@@ -8,11 +8,6 @@ https://ieeexplore.ieee.org/document/8576582
 
 IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), Volume: 30 , Issue: 1 , Jan. 2020.
 
-Deep Bilinear Pooling for Blind Image Quality Assessment (Unofficial free version)
-=
-https://ece.uwaterloo.ca/~k29ma/papers/19_TCSVT_DB-CNN.pdf
-
-
 
 Files under distorion_generator are used for synthesizing distorted images.
 -
@@ -53,3 +48,15 @@ You need to copy the matconvet/matlab folder to that of your matconvnet to modif
 Relevant links: \
 Waterloo Exploration Database: https://ece.uwaterloo.ca/~k29ma/exploration/ \
 PASCAL VOC 2012: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
+
+Citation
+-
+@article{zhang2020blind,
+  title={Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Network},
+  author={Zhang, Weixia and Ma, Kede and Yan, Jia and Deng, Dexiang and Wang, Zhou},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={30},
+  number={1},
+  pages={36--47},
+  year={2020}
+}
