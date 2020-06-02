@@ -51,12 +51,12 @@ PASCAL VOC 2012: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
 
 Citation
 -
-@article{zhang2020blind,
-  title={Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Network},
-  author={Zhang, Weixia and Ma, Kede and Yan, Jia and Deng, Dexiang and Wang, Zhou},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  volume={30},
-  number={1},
-  pages={36--47},
-  year={2020}
+@article{zhang2020blind,  
+  title={Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Network},  
+  author={Zhang, Weixia and Ma, Kede and Yan, Jia and Deng, Dexiang and Wang, Zhou},  
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},  
+  volume={30},  
+  number={1},  
+  pages={36--47},  
+  year={2020}  
 }
